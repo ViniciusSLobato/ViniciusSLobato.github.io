@@ -1,0 +1,350 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+:root{
+--background-notas: #ecedf1;
+--background-yellon: #f9d230;
+--title-yellon: #f9d230;
+--title: #000000;
+--tittle-gray: #5D5D5D;
+--tittle-dark-red: #ff4e3b;
+--tittle-green: #4CCDAF;
+--tittle-blue: #33BCFF;
+--text-white: #fff;
+--paragraph:#000;
+--paragraph-gray: #5D5D5D;
+}
+
+@font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Thin; src: url(./fonts/CamphorProForXiaoMi-Thin.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Heavy; font-weight: 900; src: url(./fonts/CamphorProForXiaoMi-Heavy.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
+
+.f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
+.f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
+.f-light {font-family: CamphorProForXiaoMi-Light, sans-serif}
+.f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
+.f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
+.f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
+
+@media screen and (min-width:1024px) {main{display: none;}}
+
+@media screen and (min-width:760px) and (max-width:1023px) {main{display: none;}}
+
+@media screen  and (max-width:768px) {
+
+    a:link {text-decoration: none;} 
+
+    .root-xiaomi-redmi-buds-4 {overflow: hidden; width: 100%;}
+
+    .title_xiaomi-redmi-buds-01 {font-size: 0.8rem; color: var(--title); text-align: left; margin: 1rem;}
+    .title_xiaomi-redmi-buds-02-1 {font-size: 0.8rem; color: var(--title); text-align: left; margin: 1rem;}
+    .p-xiaomi-redmi-buds-01 {font-size: 0.8rem; color: var(--paragraph);}
+    .p-xiaomi-redmi-buds-01-01 {font-size: 0.8rem; color: var(--paragraph-gray);}
+
+    .title_xiaomi-redmi-buds-03 {font-size: 1.9rem; color: var(--tittle-dark-red); text-align: left;}
+    .title_xiaomi-redmi-buds-03_01 {font-size: 1.8rem; color: var(--tittle); text-align: left; margin-top: 2rem;}
+    .title_xiaomi-redmi-buds-03_02 {font-size: 0.8rem; color: var(--tittle-gray); text-align: left; margin-bottom: 3rem; margin-top: 1rem;} 
+
+    .p-title_xiaomi-redmi-buds-04 {font-size: 0.8rem; color: var(--tittle-dark-red); text-align: left; margin-left: 4.4rem;}
+    .p-title_xiaomi-redmi-buds-04-01 {font-size: 0.8rem; color: var(--tittle-dark-red); text-align: right; margin-right: 5.8rem; margin-top: -2.5rem; margin-bottom: 0.7rem;}  
+    
+    .title_xiaomi-redmi-buds-05 {font-size: 1.9rem; color: var(--tittle-dark-red); text-align: left;}
+    .title_xiaomi-redmi-buds-05_01 {font-size: 1.8rem; color: var(--tittle); text-align: left; margin-top: 1rem; margin-bottom: 1rem;}
+    .title_xiaomi-redmi-buds-05_02 {font-size: 0.8rem; color: var(--tittle-gray); text-align: left; margin-bottom: 1rem;} 
+
+    .p-title_xiaomi-redmi-buds-06 {font-size: 0.8rem; color: var(--tittle-dark-red); text-align: left; margin-left: 13.5rem;}
+    .p-title_xiaomi-redmi-buds-06-01 {font-size: 0.8rem; color: var(--tittle-dark-red); text-align: right; margin-right: 6.5rem; margin-top: -0.5rem; margin-bottom: 15rem;}
+    
+    .title_xiaomi-redmi-buds-07 {font-size: 1.9rem; color: var(--tittle-green); text-align: left;}
+    .title_xiaomi-redmi-buds-07_01 {font-size: 1.5rem; color: var(--tittle); text-align: left; margin-top: 2.5rem;}
+    .title_xiaomi-redmi-buds-07_02 {font-size: 1rem; color: var(--tittle-gray); text-align: left; margin-top: 0.5rem;} 
+
+    .title_xiaomi-redmi-buds-08 {font-size: 1.9rem; color: var(--tittle-blue); text-align: left; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}
+    .title_xiaomi-redmi-buds-08_01 {font-size: 1.5rem; color: var(--tittle); text-align: left; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}
+    .title_xiaomi-redmi-buds-08_02 {font-size: 1rem; color: var(--tittle-gray); text-align: left; padding-top: 0.5rem; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;} 
+
+    .title_xiaomi-redmi-buds-09 {font-size: 1.9rem; color: var(--tittle-blue); text-align: left; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}
+    .title_xiaomi-redmi-buds-09_01 {font-size: 1.5rem; color: var(--tittle); text-align: left; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}
+    .title_xiaomi-redmi-buds-09_02 {font-size: 1rem; color: var(--tittle-gray); text-align: left; padding-bottom: 1rem; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;}
+    .title_xiaomi-redmi-buds-09_03 {font-size: 1rem; color: var(--tittle-gray); text-align: left; margin-top: 31.5rem; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}  
+
+    /* Não utilizados 
+    .title_xiaomi-redmi-buds-02-3{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: -5rem; margin-left: 2rem;}
+    .title_xiaomi-redmi-buds-02-4{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: 7rem; margin-left: 11rem;}
+    .title_xiaomi-redmi-buds-02-5{font-size: 1.3rem; font-weight: bold; color: #f9d230; text-align: left; margin-top: 5rem; margin-left: 3rem;}
+    
+    .title_xiaomi-redmi-buds-04{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; padding: 1rem; margin-top: 3rem;}
+    .title_xiaomi-redmi-buds-05{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
+    .title_xiaomi-redmi-buds-06{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
+    .title_xiaomi-redmi-buds-07{font-size: 1.7rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
+    .title_xiaomi-redmi-buds-08{font-size: 1.7rem; font-weight: bold; color: var(--title-yellon); text-align: left; margin-top: 1.5rem;}
+    .title_xiaomi-redmi-buds-09{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left; margin-top: 28rem;}
+    .title_xiaomi-redmi-buds-10{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
+    .title_xiaomi-redmi-buds-11{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left; margin-bottom: 0.5rem;}
+    .title_xiaomi-redmi-buds-12{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left; margin-bottom: 0.5rem;}
+    .text_xiaomi-redmi-buds-14{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center; margin-top: 4rem; margin-left: -12rem;}
+
+    .sub-title-redmi-buds{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
+    .sub-title-redmi-buds-03{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
+    .sub-title-redmi-buds-06{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
+    .sub-title-redmi-buds-07{font-size: 1.5rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
+    .sub-title-redmi-buds-11{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left; margin-bottom: 0.5rem;}
+    .sub-title-redmi-buds-12{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left; margin-bottom: 0.5rem;}
+
+   
+    .p_xiaomi-redmi-buds-03{font-size: 1rem; color: var(--paragraph); text-align: left;}
+    .p_xiaomi-redmi-buds-06{font-size: 1rem; color: var(--paragraph); text-align: left;}
+    .p_xiaomi-redmi-buds-07{font-size: 0.7rem; color: var(--text-white); text-align: left;}
+    .p_xiaomi-redmi-buds-08{font-size: 1rem; color: var(--paragraph); text-align: left;}
+    .p_xiaomi-redmi-buds-09{font-size: 1rem; color: var(--paragraph); text-align: left;}
+    .p_xiaomi-redmi-buds-10{font-size: 1rem; color: var(--paragraph); text-align: left;}   
+    .p_xiaomi-redmi-buds-11{font-size: 1rem; color: var(--paragraph); text-align: left;}
+    .p_xiaomi-redmi-buds-12{font-size: 1rem; color: var(--paragraph); text-align: left;} */
+
+    /*==================================================== GRID ========================================================*/
+
+    .grid-text-bloco {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .grid-xiaomi-01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        align-items: center;
+        text-align: center;
+        margin: 24px;
+    }
+
+    /*======================================================= LAYOUT =======================================================*/
+    
+    .base_01 { 
+        height: 42rem;
+        background-image: url(../media/Overview_M1080_01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_02 { /* Substituir por base_default */
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .base_03 {
+        padding: 10px;
+    }
+
+    .base_03_01 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_02.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 14px;
+    }
+
+    .base_03_02 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_03.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 14px;
+    }
+
+    .base_03_03 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_04.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 14px;
+    }
+
+    .base_03_04 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_05.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 14px;
+    }
+
+    .base_03_05 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_06.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 14px;
+    }
+
+    .base_03_06 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_07.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 14px;
+    }
+
+    video{width: 100%; height: auto;}
+
+    .base_04 { /* Substituir por base_default */
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .base_05 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_12.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_06 { /* Substituir por base_default */
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .img_group_01 {
+        margin-bottom: 2rem;
+    }
+
+    .base_07 {
+        height: 14rem;
+        background-image: url(../media/Overview_M1080_09.webp);
+        background-position: left;
+        margin-right: 4.2rem;
+        background-repeat: no-repeat;
+        background-size:contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_07_01 {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .img_group_02 {
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+    }
+
+    .base_08 {
+        height: 14rem;
+        background-image: url(../media/Overview_M1080_11.webp);
+        background-repeat: no-repeat;
+        background-size:contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_08_01 {
+        margin-top: 1rem;
+    }
+
+    .img_group_03 {
+        margin-bottom: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .base_09 {
+        height: 14rem;
+        background-image: url(../media/Overview_M1080_10.webp);
+        background-position: left;
+        margin-right: 4.2rem;
+        background-repeat: no-repeat;
+        background-size:contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_09_01 {
+        margin-top: 1rem;
+    }
+
+    img {
+        height: 1.5rem; 
+        width: 1.5rem;
+    }
+
+    .base_10 { /* Substituir por base_default */
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .base_11 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_08.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_12 { /* Substituir por base_default */
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .base_13 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_13.webp);
+        background-position: left;
+        margin-right: 2rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_14 { 
+        height: 52rem;
+        background-image: url(../media/Overview_M1080_16.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2.5rem;
+    }
+
+    .base_15 {
+        height: 60rem;
+        background-image: url(../media/Overview_M1080_17.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .base_16 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_18.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin-top: -4rem;
+    }
+
+}
