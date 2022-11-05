@@ -1,21 +1,22 @@
 *{box-sizing: border-box; margin: 0; padding: 0;}
 
 :root{
---background-notas: #ecedf1;
---background-yellon: #f9d230;
---title-yellon: #f9d230;
---title: #000000;
---tittle-gray: #5D5D5D;
---tittle-dark-red: #ff4e3b;
---tittle-green: #4CCDAF;
---tittle-blue: #33BCFF;
---text-white: #fff;
---paragraph:#000;
---paragraph-01: #0000;
---paragraph-gray: #5D5D5D;
---blue-gradient: linear-gradient(0deg,#959fff,#3f94ff);
---green-gradient: linear-gradient(0deg,#81d8b0,#02bfae);
---red-gradient: linear-gradient(0deg,#ff7260,#ff210e);
+    --background-notas: #ecedf1;
+    --background-yellon: #f9d230;
+    --title-yellon: #f9d230;
+    --title: #000000;
+    --tittle-gray: #5D5D5D;
+    --tittle-dark-red: #ff4e3b;
+    --tittle-green: #4CCDAF;
+    --tittle-blue: #33BCFF;
+    --text-white: #fff;
+    --paragraph:#000;
+    --paragraph-01: #0000;
+    --paragraph-gray: #5D5D5D;
+    --paragraph-blue: #4C92FF;
+    --blue-gradient: linear-gradient(0deg,#959fff,#3f94ff);
+    --green-gradient: linear-gradient(0deg,#81d8b0,#02bfae);
+    --red-gradient: linear-gradient(0deg,#ff7260,#ff210e);
 }
 
 @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
@@ -86,6 +87,19 @@
     .title_xiaomi-redmi-buds-13 {font-size: 1.9rem; color: var(--paragraph); background: var(--blue-gradient); -webkit-background-clip: text; -webkit-text-fill-color: var(--paragraph-01); text-align: left;}
     .title_xiaomi-redmi-buds-13_01 {font-size: 1.5rem; color: var(--tittle); text-align: left; margin-top: 2.5rem;}
     .title_xiaomi-redmi-buds-13_02 {font-size: 1rem; color: var(--tittle-gray); text-align: left; margin-top: 0.5rem;} 
+
+    .p-title_xiaomi-redmi-buds-14 {font-size: 0.8rem; color: var(--paragraph-blue); margin-left: 5rem; margin-top: 3.5rem;}
+
+    .title_xiaomi-redmi-buds-15_01 {font-size: 1.5rem; color: var(--tittle); text-align: left;}
+    .title_xiaomi-redmi-buds-15_02 {font-size: 1rem; color: var(--tittle-gray); text-align: left; margin-top: 0.5rem;}
+    
+    .title_xiaomi-redmi-buds-16_01 {font-size: 1.5rem; color: var(--tittle); text-align: left; margin-top: 0.5rem; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;}
+    .title_xiaomi-redmi-buds-16_02 {font-size: 1rem; color: var(--tittle-gray); text-align: left; margin-top: 1rem; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;} 
+
+    .title_xiaomi-redmi-buds-17_01 {font-size: 1rem; color: var(--tittle); text-align: left; margin-top: 0.5rem; padding-left: 0.5rem; padding-right: 1rem;}
+
+    .title_xiaomi-redmi-buds-18_01 {font-size: 0.9rem; color: var(--tittle); text-align: left; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;}
+    .title_xiaomi-redmi-buds-18_02 {font-size: 0.9rem; color: var(--tittle-gray); text-align: left;  padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;} 
 
     /*==================================================== GRID ========================================================*/
 
@@ -274,7 +288,7 @@
         margin-top: 1rem;
     }
 
-    img {
+    .img_group {
         height: 1.5rem; 
         width: 1.5rem;
     }
@@ -343,7 +357,7 @@
     }
 
     .base_17 {
-        height: 35rem;
+        height: 32rem;
         background-image: url(../media/Overview_M1080_19-01.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -395,6 +409,231 @@
         background-size: contain;
         display: flex;
         flex-direction: column;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+    .base_22 { /* Substituir por base_default */
+        margin-bottom: 3rem;
+    }
+
+    .base_23 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_22.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .base_24 { /* Substituir por base_default */
+    }
+
+    .base_25 {
+
+    }
+
+    .img_base_25-01 {
+        margin-left: 2rem;
+        align-items: center;
+        height: 1rem;
+    }
+
+    .base_25-01 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+
+    .base_25-01-01 {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 3rem;
+    }
+
+    .img_base_25-02 {
+        margin-left: 2.5rem;
+        align-items: center;
+        height: 1rem;
+    }
+
+    .base_25-02 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;  
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .base_25-01-02 {
+        flex-direction: column;
+        margin-left: 1.5rem;
+        margin-right: 3rem;
+    }
+
+    .img_base_25-03 {
+        margin-left: 2.5rem;
+        align-items: center;
+        height: 1rem;
+    }
+
+    .base_25-03 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;   
+        margin-top: 1rem;
+        margin-bottom: 3rem; 
+    }
+
+    .base_25-01-03 {
+        flex-direction: column;
+        margin-left: 1.5rem;
+        margin-right: 3rem;
+    }
+
+    .base_26 {
+        height: 20rem;
+        background-image: url(../media/Overview_M1080_23.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .base_27 {
         margin: 1rem;
     }
+
+    .img_base_27 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: -1rem;
+        height: 1.5rem;
+    }
+
+    .base_27-01 {
+        margin: 1rem;
+    }
+
+    .base_28 {
+        height: 23rem;
+        background-image: url(../media/Overview_M1080_24.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .base_29 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .base_30 {
+        height: 30rem;
+        background-image: url(../media/Overview_M1080_25.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin-top: -2rem;
+    }
+
+    .base_31 { 
+        height: 50rem;
+        background-image: url(../media/Overview_M1080_26.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    .base_31-01 {
+        margin-top: 1rem;
+    }
+
+    .base_31-02 {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .img_base_31 {
+        height: 2rem;
+        margin-right: 11rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .img_base_32 {
+        height: 3rem;
+    }
+
+    .base_32 {
+        height: 14.5rem;
+        background-image: url(../media/Overview_M1080_27.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .base_32-01 {
+        margin-left: 8rem;
+        margin-top: 3rem;
+    }
+
+    .base_33 {
+        height: 14.5rem;
+        background-image: url(../media/Overview_M1080_28.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .base_33-01 {
+        margin-right: 7rem;
+        margin-top: 2rem;
+    }
+
+    .base_34 {
+        height: 14.5rem;
+        background-image: url(../media/Overview_M1080_29.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .base_34-01 {
+        margin-right: 7rem;
+        margin-top: 6rem;
+    }
+
 }
