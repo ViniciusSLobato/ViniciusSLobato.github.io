@@ -46,6 +46,7 @@
     .title_xiaomi-redmi-buds-02-1 {font-size: 0.8rem; line-height: 1rem; color: var(--title); text-align: left; margin: 1rem;}
     .p-xiaomi-redmi-buds-01 {font-size: 0.8rem; color: var(--paragraph);}
     .p-xiaomi-redmi-buds-01-01 {font-size: 0.8rem; line-height: 1.5rem; color: var(--paragraph-gray);}
+    .p-xiaomi-redmi-buds-01-02 {font-size: 0.8rem; line-height: 1rem; color: var(--paragraph-gray);}
 
     .title_xiaomi-redmi-buds-03 {font-size: 1.9rem; color: var(--paragraph); background: var(--red-gradient); -webkit-background-clip: text; -webkit-text-fill-color: var(--paragraph-01); text-align: left;}
     .title_xiaomi-redmi-buds-03_01 {font-size: 1.8rem; color: var(--tittle); text-align: left; margin-top: 2rem;}
@@ -72,7 +73,7 @@
     .title_xiaomi-redmi-buds-09 {font-size: 1.9rem; color: var(--tittle-blue); text-align: left; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}
     .title_xiaomi-redmi-buds-09_01 {font-size: 1.5rem; color: var(--tittle); text-align: left; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}
     .title_xiaomi-redmi-buds-09_02 {font-size: 1rem; line-height: 1.5rem; color: var(--tittle-gray); text-align: left; padding-bottom: 1rem; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;}
-    .title_xiaomi-redmi-buds-09_03 {font-size: 1rem; line-height: 1.5rem; color: var(--tittle-gray); text-align: left; margin-top: 32rem; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}  
+    .title_xiaomi-redmi-buds-09_03 {font-size: 1rem; line-height: 1.5rem; color: var(--tittle-gray); text-align: left; margin-top: 30rem; padding: 1rem; margin-left: 1rem; margin-right: 1rem;}  
 
     .title_xiaomi-redmi-buds-10 {font-size: 1.9rem; color: var(--paragraph); background: var(--green-gradient); -webkit-background-clip: text; -webkit-text-fill-color: var(--paragraph-01); text-align: left; margin: 1rem; padding: 1rem;}
     .title_xiaomi-redmi-buds-10_01 {font-size: 1.5rem; color: var(--tittle); text-align: left; margin-top: 1rem; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; margin-right: 1rem;}
